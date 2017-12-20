@@ -1,0 +1,36 @@
+{
+  "name": "unique-iterable-by",
+  "version": "1.0.0",
+  "description": "Filters yielded values by testing uniqueness with an index, key, or callback.",
+  "keywords": [
+    "unique",
+    "iterable",
+    "iterator",
+    "filter"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/unique-iterable-by",
+  "repository": "lamansky/unique-iterable-by",
+  "main": "index.js",
+  "files": [],
+  "dependencies": {
+    "filter-iter": "^1.0.0",
+    "is-new": "^1.0.0",
+    "m-o": "^2.1.1",
+    "possible-function": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
